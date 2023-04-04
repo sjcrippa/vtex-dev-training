@@ -18,12 +18,13 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: green;
   color: #fff;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  color: #fff;
+  background-color: green;
 }
 
 .flexRowContent--main-header-mobile {
@@ -38,12 +39,12 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
+  color: #fff;
   font-size: 14px;
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: green;
   padding: 14px 0px;
 }
 

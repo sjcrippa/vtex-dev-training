@@ -1,6 +1,5 @@
 .notificationBarContainer {
   background-color: #e6f1e6;
-  color: #03034e;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -14,7 +13,7 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: green;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -69,15 +68,20 @@
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
+    width: 10%;
+
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
