@@ -9,8 +9,8 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+/*       "rich-text#question", */
+/*       "rich-text#link", */
       "newsletter"
     ]
   },
@@ -86,19 +86,19 @@
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
-  },
-
+  }
+/* 
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
-  },
+  }, */
 
-  "rich-text#link": {
+/*   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
-  }
+  } */
 }
