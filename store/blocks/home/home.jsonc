@@ -8,7 +8,7 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
+/*       "info-card#home", */
 /*       "rich-text#question", */
 /*       "rich-text#link", */
       "newsletter"
@@ -22,13 +22,13 @@
       "preload": true,
       "images": [
         {
-          "image": "https://logosmarcas.net/wp-content/uploads/2020/04/Versace-Emblema.jpg",
+          "image": "https://wallpapercave.com/wp/wp2963545.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
+        }/* ,
         {
           "image": "https://lititup.net/wp-content/uploads/picture-10420.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
+        } */
       ]
     }
   },
@@ -47,7 +47,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Productos",
       "blockClass": "shelfTitle"
     }
   },
@@ -72,7 +72,7 @@
       "fullWidth": false,
       "blockClass": "shelf"
     }
-  },
+  } ,
 
   "info-card#home": {
     "props": {
