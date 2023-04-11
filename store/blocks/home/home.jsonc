@@ -6,11 +6,11 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
+      "rich-text#link", 
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
 /*       "info-card#home", */
       "rich-text#question",
-/*       "rich-text#link", */
       "newsletter"
     ]
   },
@@ -42,7 +42,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Top produts",
+      "text": "## Top choices for customers",
       "blockClass": "shelfTitle"
     }
   },
@@ -68,7 +68,15 @@
       "fullWidth": false,
       "blockClass": "shelf"
     }
-  } ,
+  },
+
+  
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
 
   "info-card#home": {
     "props": {
@@ -91,11 +99,4 @@
       "imageUrl": "https://drive.google.com/uc?export=view&id=1-5JvczjmyKMKC-D5aMJBN02akLRSKB9I"
     }
   }
-
-/*   "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
-  } */
 }
