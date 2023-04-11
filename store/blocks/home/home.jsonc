@@ -8,6 +8,9 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+/*       "info-card#home", */
+      "rich-text#question",
+/*       "rich-text#link", */
       "newsletter"
     ]
   },
@@ -58,7 +61,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },
@@ -80,5 +83,20 @@
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "Always Giorgio",
+      "blockClass": "question",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1-5JvczjmyKMKC-D5aMJBN02akLRSKB9I"
+    }
   }
+
+/*   "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  } */
 }

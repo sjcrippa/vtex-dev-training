@@ -18,7 +18,7 @@
 }
 
 .nameContainer {
-  justify-content: start;
+  justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -31,6 +31,7 @@
 
 .container {
   text-align: start;
+  background-color: transparent;
 }
 
 .imageContainer {

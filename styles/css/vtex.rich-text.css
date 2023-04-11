@@ -25,14 +25,20 @@
 
 .container--question {
   justify-content: center;
+  background-image: url(https://1.bp.blogspot.com/-tyIYA8AjoUE/Xc6aSllXs1I/AAAAAAABwqQ/NwkaPpqoSKAV7kpRKr5R8fP_QERYLXfRQCLcBGAsYHQ/s1600/portada%2Barmani%2Bsi.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container--question .paragraph {
   text-align: center;
   max-width: 540px;
+  height: 60vh;
   margin: 0 16px;
-  padding-top: 120px;
-  color: #03034E;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  opacity: 0;
 }
 
 .container--question .strong {
