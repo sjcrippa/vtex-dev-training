@@ -8,9 +8,6 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-/*       "info-card#home", */
-/*       "rich-text#question", */
-/*       "rich-text#link", */
       "newsletter"
     ]
   },
@@ -24,11 +21,7 @@
         {
           "image": "https://wallpapercave.com/wp/wp2963545.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        }/* ,
-        {
-          "image": "https://lititup.net/wp-content/uploads/picture-10420.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        } */
+        }
       ]
     }
   },
@@ -58,7 +51,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "20"
     }
   },
   "slider-layout#demo-products": {
@@ -87,18 +81,4 @@
       "textAlignment": "center"
     }
   }
-/* 
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  }, */
-
-/*   "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
-  } */
 }

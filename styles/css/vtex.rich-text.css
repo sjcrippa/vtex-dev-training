@@ -6,6 +6,7 @@
 
 .container--shelfTitle {
   color: black;
+  background-color: rgb(231, 231, 231);
   justify-content: center;
   text-align: center;
 }
