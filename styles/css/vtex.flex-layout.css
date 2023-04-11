@@ -25,6 +25,11 @@
   background-color: rgb(231, 231, 231);;
 }
 
+.flex-layout--logoHeader {
+  display: flex;
+  justify-content: start;
+}
+
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;

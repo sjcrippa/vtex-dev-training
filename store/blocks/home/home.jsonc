@@ -22,8 +22,7 @@
       "preload": true,
       "images": [
         {
-          "image": "https://wallpapercave.com/wp/wp2963545.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://wallpapercave.com/wp/wp2963545.png"
         }
       ]
     }
@@ -43,7 +42,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Productos",
+      "text": "## Top produts",
       "blockClass": "shelfTitle"
     }
   },

@@ -7,6 +7,10 @@
 .flexRowContent--contact :global(.vtex-textarea__label) {
   font-size: 1rem;
   color: #3f3f40;
+  background: repeating-radial-gradient(circle,#000000, transparent 20%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
 }
 
 .flexRowContent--contact :global(.vtex-input),

@@ -74,12 +74,7 @@
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
+    }
   },
 
   "menu-item#smartphones": {
@@ -133,12 +128,7 @@
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
+    }
   },
 
   "menu-item#bags": {
@@ -192,15 +182,7 @@
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
+    }
   },
 
   "vtex.menu@2.x:menu#footer-mobile": {

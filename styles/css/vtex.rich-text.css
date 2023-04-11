@@ -9,10 +9,26 @@
   background-color: rgb(231, 231, 231);
   justify-content: center;
   text-align: center;
+  animation:shadow-drop-center 0.4s linear both
 }
+@keyframes shadow-drop-center{0%{box-shadow:0 0 0 0 transparent}100%{box-shadow:0 0 20px 0 rgba(255,255,255,.55)}}
 
 .headingLevel2--shelfTitle {
+  width: 40vh;
+  height: 8vh;
   font-weight: 200;
+  border: 3px black solid;
+  border-radius: 24px;
+  box-shadow: 10px 8px;
+  cursor: pointer;
+}
+
+.headingLevel2--shelfTitle:hover {
+  color:rgb(236, 56, 43);
+  background-color: black;
+  transition: ease 0.4s;
+  transform: scale(0.9);
+  box-shadow: 10px 8px rgb(236, 56, 43);
 }
 
 .container--deals .paragraph {

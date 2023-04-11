@@ -19,8 +19,8 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Home",
+        "text": "Home"
       }
     },
     "blocks": [
@@ -100,8 +100,8 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "About us",
+        "text": "About us"
       }
     }
   },
@@ -118,10 +118,7 @@
         "tagTitle": "More",
         "text": "More"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {

@@ -35,7 +35,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
+/*       "flex-layout.col#spacer", */
       "vtex.menu@2.x:menu#institutional"
     ]
   },
@@ -63,6 +63,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
       "login",
       "minicart.v2"
@@ -70,6 +71,7 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
+      "blockClass": "logoHeader",
       "verticalAlign": "middle"
     },
     "children": [
@@ -138,7 +140,6 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "77.5",
       "height": "27.5"
     }
