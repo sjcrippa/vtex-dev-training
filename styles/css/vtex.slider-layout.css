@@ -1,6 +1,7 @@
 .sliderLayoutContainer {
   justify-content: center;
   background-color: #fff;
+  height: 90vh;
 }
 
 .sliderLayoutContainer--carousel {

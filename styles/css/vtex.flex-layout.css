@@ -48,12 +48,27 @@
 
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
+  display: inline-block;
+  
+  animation: move 1.5s ease-in infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.5);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 .flexRow--deals .flexCol {
   align-items: center;
   margin-bottom: 5px;
-  padding-top: 5px;
+  padding-top: 5px;  
 }
 
 .flexCol--filterCol {
@@ -94,4 +109,6 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+  background-color: red;
+
 }

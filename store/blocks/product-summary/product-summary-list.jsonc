@@ -97,6 +97,7 @@
   },
   "flex-layout.row#buyButtonsSummaryListDesktop": {
     "props": {
+      "blockClass":"btnCart",
       "colSizing": "auto",
       "colGap": 5
     },
