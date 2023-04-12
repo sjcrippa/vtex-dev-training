@@ -22,12 +22,7 @@
 }
 
 .flexRowContent--main-header {
-  background-color: rgb(231, 231, 231);;
-}
-
-.flex-layout--logoHeader {
-  display: flex;
-  justify-content: start;
+  background-color: #fff;
 }
 
 .flexRowContent--main-header-mobile {

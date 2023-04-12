@@ -42,7 +42,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Top choices for customers",
+      "text": "## Our top fragrances",
       "blockClass": "shelfTitle"
     }
   },
@@ -73,7 +73,7 @@
   
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "www.vtex.com.br",
       "blockClass": "link"
     }
   },

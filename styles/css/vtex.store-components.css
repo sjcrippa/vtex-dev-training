@@ -13,9 +13,12 @@
 }
 
 .newsletter {
-  background-color: rgb(231, 231, 231);;
+  border: 2px solid black;
+  background-color: #fff;
   max-width: 1528px;
   margin: 0 auto;
+  background-image: url(https://www.armani.com/content/images/cms/ycm/resource/blob/672164/8475600408d29c72e94ff6ad789577fb/ea-data.jpg/w1200.jpg);
+  background-size: cover;
 }
 
 .newsletter .container {
@@ -25,6 +28,7 @@
 .label {
   color: black;
   font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .inputGroup {
@@ -36,19 +40,23 @@
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
   color: black;
-  border: none;
+  border: 2px solid black;
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
-  color: black;
-  border: none;
-  margin-right: -24px;
+  color:black;
+  border: 2px solid black;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .buttonContainer {
